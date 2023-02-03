@@ -1,15 +1,20 @@
 
 import './App.css';
 import { useState } from 'react';
-import LandingPage from '../src/LandingPage';
+import LandingPage from './Acessable/LandingPage';
+import SignupPage from './Acessable/Signup';
+import Public from './Acessable/Public';
 // import DesktopLandingpage from './DesktopAssets/DesktopLandingpage';
 
 function App() {
-  const [Login, setLogin] = useState(<LandingPage/>)
+  const [content, setcontent] = useState(<Public/>)
+  const [Login, setLogin] = useState(true)
 
   return (
+    
     <div className="App">
-            {Login}
+      
+            {content}
 
     </div>
   );
