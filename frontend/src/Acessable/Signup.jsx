@@ -79,7 +79,7 @@ function SignupPage() {
                     <div className='grid grid-cols-2'>
 
                     <div className='fon-letter lg:w-1/3 text-2xl'>or</div>
-                    <div><button type='submit' className="font-semibold  lg:w-2/3 bg-transparent hover:bg-blue-700 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-700 hover:border-transparent rounded mb-4 "
+                    <div><button type='submit' className="font-semibold  lg:w-2/3 bg-transparent hover:bg-blue-700 text-blue-700  hover:text-white py-2 px-4 border border-blue-700 hover:border-transparent rounded mb-4 "
                               > Signup through <span className='font-letter'>GSTIN</span> </button> </div>
                   </div>
                        </div>
